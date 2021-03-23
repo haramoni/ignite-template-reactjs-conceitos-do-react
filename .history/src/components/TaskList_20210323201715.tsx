@@ -38,8 +38,6 @@ export function TaskList() {
           }
         : task
     );
-
-    setTasks(completedTasks);
   }
 
   function handleRemoveTask(id: number) {
